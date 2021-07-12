@@ -41,7 +41,10 @@ main {
     margin: 30px 0;
 }
 
-/* top players style */
+/* ===============================
+        top players style 
+    ============================== */
+
 .top-players {
     padding-bottom: 30px;
 }
@@ -82,6 +85,7 @@ hr.hr {
 .blog {
     display: flex;
 }
+
 .blog-thumbnail img {
     width: 177px;
     height: 117px;
@@ -103,4 +107,28 @@ hr.hr {
 
 .blog-author a {
     text-decoration: none;
+}
+
+
+/*  =============================
+        Courses styles 
+    ============================= */
+
+.course-banner img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+}
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+.fa-star.empty {
+    color: #AEAEAE;
 }
